@@ -1,0 +1,4 @@
+enum LoginMethod {
+  phoneAndPassword,
+  phoneAndOtp,
+}

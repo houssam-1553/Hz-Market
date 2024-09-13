@@ -1,0 +1,128 @@
+name: hzmarket
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+get:
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+environment:
+  sdk: ">=3.0.0 "
+
+dependencies:
+  animate_do: ^3.0.2
+
+  flutter:
+    sdk: flutter
+  flutter_animated_button: ^2.0.3
+
+  flutter_svg: ^2.0.5
+  language_picker: ^0.4.1
+  persistent_bottom_nav_bar: ^5.0.2
+  motion_tab_bar: ^2.0.4
+  equatable: ^2.0.5
+  ionicons: ^0.1.2
+
+  #state management
+  flutter_bloc: ^8.1.2
+
+  #comparing dart objects
+
+  #service locator
+  get_it: ^7.7.0
+
+  #dateFormat
+
+  #Database
+  floor: any
+
+  #make request to api
+  retrofit: ^3.0.1
+
+  #Hooks
+  flutter_hooks: ^0.18.3
+
+  #chached image
+  cached_network_image: ^3.2.0
+  fpdart: ^0.6.0
+  dio: ^4.0.6
+  http: ^1.2.1
+  provider: ^6.1.2
+  image_picker: ^1.1.1
+
+  flutter_localizations:
+    sdk: flutter
+  watcher: ^1.1.0
+  foundation: ^0.0.5
+  pin_code_fields: ^8.0.1
+  profile_photo: ^1.0.3
+  syncfusion_flutter_charts: ^26.2.8
+  country_icons: ^3.0.0
+  country_picker: ^2.0.26
+  country_flags: ^2.2.0
+  flutter_native_splash: ^2.4.0
+  flutter_spinkit: ^5.2.1
+  flutter_secure_storage: ^9.2.2
+  card_slider: ^1.0.5
+  carousel_slider: ^4.2.1
+  easy_sidemenu: ^0.6.0
+  flutter_side_menu: ^0.5.3
+  flutter_advanced_drawer: ^1.3.6
+  shared_preferences: ^2.2.3
+  get: ^4.6.6
+  iconsax: ^0.0.8
+  google_fonts: ^6.2.1
+  fl_chart: ^0.68.0
+  flutter_switch_dark_light: ^0.0.4
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/profile.png
+  android: true
+  ios: true
+  web: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  retrofit_generator: 3.0.1+1
+  floor_generator: 1.2.0
+
+  build_runner: 2.1.2
+
+flutter:
+  fonts:
+    - family: Robotoo
+      fonts:
+        - asset: assets/fonts/Roboto-Medium.ttf
+
+    - family: Freeman
+      fonts:
+        - asset: assets/fonts/Freeman-Regular.ttf
+    - family: Nunito Bold
+      fonts:
+        - asset: assets/fonts/nunito/NunitoSans_10pt-Bold.ttf
+    - family: Nunito Normal
+      fonts:
+        - asset: assets/fonts/nunito/NunitoSans_10pt-Medium.ttf
+    - family: inter Normal
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+    - family: inter light
+      fonts:
+        - asset: assets/fonts/Inter-Light.ttf
+    - family: inter bold 
+      fonts:
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+
+  assets:
+    - assets/
+    - assets/images/
+
+  uses-material-design: true
+
+flutter_intl:
+  enabled: true
