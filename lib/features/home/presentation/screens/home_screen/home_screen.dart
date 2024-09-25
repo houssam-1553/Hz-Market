@@ -133,11 +133,8 @@ ListTile(
         width: double.infinity,
         height: double.infinity,
         decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [ColorManager.primary, const Color.fromARGB(255, 255, 255, 255).withOpacity(0.2)],
-          ),
+         
+           color: ColorManager.primary,
         ),
       ),
       controller: _advancedDrawerController,

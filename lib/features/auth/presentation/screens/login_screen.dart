@@ -76,6 +76,7 @@ class _LoginScreenState extends State<LoginScreen> {
         return Row(
           children: [
             CustomFloatingButton(
+              backgroundColor: Colors.transparent,
               onLanguageChanged: (String languageCode) {
                 setState(() {
                   _selectedLanguage = _languageFromString(languageCode);
@@ -90,6 +91,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 _themeController.toggleTheme(); // Toggle the theme
               },
               iconOn: Icons.nightlight_round,
+              activeIconColor: ColorManager.black,
               iconOff: Icons.wb_sunny,
             ),
           ],

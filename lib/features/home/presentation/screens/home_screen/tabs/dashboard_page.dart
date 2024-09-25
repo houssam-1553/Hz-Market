@@ -1,5 +1,6 @@
 import 'package:animate_do/animate_do.dart';
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_controller.dart' as carouselSlider;
+import 'package:carousel_slider/carousel_slider.dart'as carouselSlider;
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -155,8 +156,8 @@ class _HomePageState extends State<HomePage> {
               Text("Main Stats",style: TextStyle(fontSize: 22,fontFamily:"Inter bold",fontWeight: bold),)
             ,)
             ],),
-          CarouselSlider(
-            options: CarouselOptions(
+          carouselSlider.CarouselSlider(
+            options: carouselSlider.CarouselOptions(
               autoPlay: true,
             aspectRatio: 1,
               height: height*0.35,
