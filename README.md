@@ -1,3 +1,9 @@
-# hzmarket
+# HZ-Market
+Inventory Management & E-Commerce Platform 
+still Backend integration (authentication done)
 
-A new Flutter project.
+# Authentication preview
+
+
+
+
